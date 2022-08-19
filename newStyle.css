@@ -1,0 +1,104 @@
+@font-face{
+    font-family: font1;
+    src: url(./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: font2;
+    src: url(./fonts/Macondo/Macondo-Regular.ttf)
+}
+
+@font-face{
+    font-family: font3;
+    src: url(./fonts/Koulen/Koulen-Regular.ttf)
+}
+
+body{
+    background-color: var(--third);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --first: rgb(9, 9, 172);
+    --second: #A0BACC;
+    --third: #022534;
+    --four:rgb(184, 183, 183);
+}
+
+.title{
+    color:var(--first);
+    font-family: font1;
+    margin-top:22px;
+    font-size: 5rem;
+    font-style:italic;
+    text-shadow: 0px 7px rgb(12, 7, 7);
+    text-align: center;
+    font-weight:bold;
+}
+
+.main{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.table_register{
+    background-color:var(--second);
+    width:40%;
+    min-height: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    opacity: 90%;
+    box-shadow: black 5px 3px 8px 4px;
+}
+
+tr{
+    height: 50px;
+}
+
+td{
+     line-height: 50px; 
+}
+
+.sign_title{
+    width:50%;
+    font-family: font3;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+input{
+    width: 60%;
+    float: right;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-style: groove;
+    border-color: black;
+    position: static;
+    left: 13%;
+    opacity: 90%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.signUp_btn{
+    width: 50%;
+    height:28px;
+    font-family: font2;
+    border-width: 0.5px;
+    border-style: groove;
+    font-size: 20px;
+    cursor:pointer;
+    transition:1s ease;
+}
+
+.signUp_btn:hover{
+    border-width: 2.3px;
+    background-color: var(--second);
+}
